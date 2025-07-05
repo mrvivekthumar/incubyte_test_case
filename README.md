@@ -4,11 +4,14 @@ A Test-Driven Development exercise implementing a string calculator with increme
 
 ## Project Structure
 
-src/
-├── main/java/co/incubyte/stringcalculator/
-│   └── StringCalculator.java
-└── test/java/co/incubyte/stringcalculator/
-    └── StringCalculatorTest.java
+test-case/
+├── src/
+│   ├── main/java/co/incubyte/stringcalculator/
+│   │   └── StringCalculator.java
+│   └── test/java/co/incubyte/stringcalculator/
+│       └── StringCalculatorTest.java
+├── README.md
+└── pom.xml
 
 ## TDD Progress
 
@@ -56,6 +59,60 @@ src/
 - [ ] Handle new lines between numbers
 - [ ] Support different delimiters
 - [ ] Throw exception for negative numbers
+
+## Test Results
+
+### Failed Test Example
+
+<img src="docs/Fail_1.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_1.png" alt="Successful Test" width="600" height="400">
+
+### Failed Test Example
+
+<img src="docs/Fail_2.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_2.png" alt="Successful Test" width="600" height="400">
+
+### Failed Test Example
+
+<img src="docs/Fail_3.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_3.png" alt="Successful Test" width="600" height="400">
+
+### Failed Test Example
+
+<img src="docs/Fail_4.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_4.png" alt="Successful Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_5.png" alt="Successful Test" width="600" height="400">
+
+### Failed Test Example
+
+<img src="docs/Fail_5.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_6.png" alt="Successful Test" width="600" height="400">
+
+### Failed Test Example
+
+<img src="docs/Fail_6.png" alt="Failed Test" width="600" height="400">
+
+### Successful Test Example
+
+<img src="docs/Success_7.png" alt="Successful Test" width="600" height="400">
 
 ## Running Tests
 
