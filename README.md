@@ -37,6 +37,11 @@ src/
 - **Test**: `testNewLinesAndCommasReturnSum() & testNewLinesOnlyReturnSum()`
 - **Implementation**: Numbers with new line sum
 
+### 🔄 Step 6: Custom Delimiter with Numbers
+
+- **Test**: `testCustomDelimiterReturnSum() & testCustomDelimiterWithMultipleNumbers()`
+- **Implementation**: Custom delimiter numbers sum
+
 ## Requirements Implemented
 
 - [ ] Empty string returns 0
@@ -44,7 +49,7 @@ src/
 - [ ] Two numbers, comma delimited, returns the sum
 - [ ] Handle any amount of numbers
 - [ ] Handle new lines between numbers
-<!-- - [ ] Support different delimiters -->
+- [ ] Support different delimiters
 <!-- - [ ] Throw exception for negative numbers -->
 
 ## Running Tests
