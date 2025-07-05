@@ -4,12 +4,10 @@ A Test-Driven Development exercise implementing a string calculator with increme
 
 ## Project Structure
 
-test-case/
-├── src/
-│   ├── main/java/co/incubyte/stringcalculator/
-│   │   └── StringCalculator.java
-│   └── test/java/co/incubyte/stringcalculator/
-│       └── StringCalculatorTest.java
+test-case
+├── src
+│   ├── main/java/co/incubyte/stringcalculator
+│   └── test/java/co/incubyte/stringcalculator
 ├── README.md
 └── pom.xml
 
