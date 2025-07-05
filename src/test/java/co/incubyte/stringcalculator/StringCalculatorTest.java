@@ -18,4 +18,16 @@ public class StringCalculatorTest {
         // Then
         assertEquals(0, result);
     }
+
+    @Test
+    public void testSingleNumberReturnsValue() {
+        // Given
+        String input = "1";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(1, result);
+    }
 }
