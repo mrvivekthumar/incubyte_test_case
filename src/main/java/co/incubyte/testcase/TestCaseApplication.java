@@ -1,4 +1,4 @@
-package co.incubyte.test_case;
+package co.incubyte.testcase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
