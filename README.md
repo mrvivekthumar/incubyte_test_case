@@ -31,11 +31,11 @@ src/
 
 - [ ] Empty string returns 0
 - [ ] Single number returns the number itself
-<!-- - [ ] Two numbers, comma delimited, returns the sum
-- [ ] Handle any amount of numbers
-- [ ] Handle new lines between numbers
-- [ ] Support different delimiters
-- [ ] Throw exception for negative numbers -->
+- [ ] Two numbers, comma delimited, returns the sum
+<!-- - [ ] Handle any amount of numbers -->
+<!-- - [ ] Handle new lines between numbers -->
+<!-- - [ ] Support different delimiters -->
+<!-- - [ ] Throw exception for negative numbers -->
 
 ## Running Tests
 
