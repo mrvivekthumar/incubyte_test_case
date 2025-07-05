@@ -27,12 +27,17 @@ src/
 - **Test**: `testTwoNumbersReturnSum()`
 - **Implementation**: Two number sum
 
+### 🔄 Step 4: Multiple Numbers
+
+- **Test**: `testMultipleNumbersReturnSum()`
+- **Implementation**: Multiple number sum
+
 ## Requirements Implemented
 
 - [ ] Empty string returns 0
 - [ ] Single number returns the number itself
 - [ ] Two numbers, comma delimited, returns the sum
-<!-- - [ ] Handle any amount of numbers -->
+- [ ] Handle any amount of numbers
 <!-- - [ ] Handle new lines between numbers -->
 <!-- - [ ] Support different delimiters -->
 <!-- - [ ] Throw exception for negative numbers -->

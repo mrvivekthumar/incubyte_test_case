@@ -42,4 +42,16 @@ public class StringCalculatorTest {
         // Then
         assertEquals(6, result);
     }
+
+    @Test
+    public void testMultipleNumbersReturnSum() {
+        // Given
+        String input = "1,2,3,4,5";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(15, result);
+    }
 }
