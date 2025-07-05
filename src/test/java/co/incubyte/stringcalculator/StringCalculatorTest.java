@@ -1,6 +1,7 @@
 package co.incubyte.stringcalculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
@@ -101,5 +102,31 @@ public class StringCalculatorTest {
 
         // Then
         assertEquals(6, result);
+    }
+
+    @Test
+    public void testNegativeNumberThrowsException() {
+        // Given
+        String input = "-1,2";
+
+        // When & Then
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            calculator.add(input);
+        });
+
+        assertEquals("negative numbers not allowed: -1", exception.getMessage());
+    }
+
+    @Test
+    public void testMultipleNegativeNumbersThrowsException() {
+        // Given
+        String input = "1,-2,3,-4";
+
+        // When & Then
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            calculator.add(input);
+        });
+
+        assertEquals("negative numbers not allowed: -2, -4", exception.getMessage());
     }
 }
