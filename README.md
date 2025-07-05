@@ -32,13 +32,18 @@ src/
 - **Test**: `testMultipleNumbersReturnSum()`
 - **Implementation**: Multiple number sum
 
+### 🔄 Step 5: New Lines Between Numbers
+
+- **Test**: `testNewLinesAndCommasReturnSum() & testNewLinesOnlyReturnSum()`
+- **Implementation**: Numbers with new line sum
+
 ## Requirements Implemented
 
 - [ ] Empty string returns 0
 - [ ] Single number returns the number itself
 - [ ] Two numbers, comma delimited, returns the sum
 - [ ] Handle any amount of numbers
-<!-- - [ ] Handle new lines between numbers -->
+- [ ] Handle new lines between numbers
 <!-- - [ ] Support different delimiters -->
 <!-- - [ ] Throw exception for negative numbers -->
 
