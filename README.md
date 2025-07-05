@@ -22,6 +22,11 @@ src/
 - **Test**: `testSingleNumberReturnsValue()`
 - **Implementation**: Parse single number
 
+### 🔄 Step 3: Two Numbers
+
+- **Test**: `testTwoNumbersReturnSum()`
+- **Implementation**: Two number sum
+
 ## Requirements Implemented
 
 - [ ] Empty string returns 0
