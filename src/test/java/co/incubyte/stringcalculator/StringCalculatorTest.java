@@ -78,4 +78,28 @@ public class StringCalculatorTest {
         // Then
         assertEquals(6, result);
     }
+
+    @Test
+    public void testCustomDelimiterReturnSum() {
+        // Given
+        String input = "//;\n1;2";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(3, result);
+    }
+
+    @Test
+    public void testCustomDelimiterWithMultipleNumbers() {
+        // Given
+        String input = "//|\n1|2|3";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(6, result);
+    }
 }
