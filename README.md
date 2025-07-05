@@ -42,6 +42,11 @@ src/
 - **Test**: `testCustomDelimiterReturnSum() & testCustomDelimiterWithMultipleNumbers()`
 - **Implementation**: Custom delimiter numbers sum
 
+### 🔄 Step 7: Negative Numbers Exception
+
+- **Test**: `testNegativeNumberThrowsException() & testMultipleNegativeNumbersThrowsException()`
+- **Implementation**: Negative numbers throws exception
+
 ## Requirements Implemented
 
 - [ ] Empty string returns 0
@@ -50,9 +55,9 @@ src/
 - [ ] Handle any amount of numbers
 - [ ] Handle new lines between numbers
 - [ ] Support different delimiters
-<!-- - [ ] Throw exception for negative numbers -->
+- [ ] Throw exception for negative numbers
 
 ## Running Tests
 
 ```bash
-mvn test
+mvn test -Dtest=StringCalculatorTest
