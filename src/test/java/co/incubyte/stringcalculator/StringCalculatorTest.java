@@ -54,4 +54,28 @@ public class StringCalculatorTest {
         // Then
         assertEquals(15, result);
     }
+
+    @Test
+    public void testNewLinesAndCommasReturnSum() {
+        // Given
+        String input = "1\n2,3";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(6, result);
+    }
+
+    @Test
+    public void testNewLinesOnlyReturnSum() {
+        // Given
+        String input = "1\n2\n3";
+
+        // When
+        int result = calculator.add(input);
+
+        // Then
+        assertEquals(6, result);
+    }
 }
